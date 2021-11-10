@@ -1,0 +1,154 @@
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+
+LOCK TABLES `tbl_author` WRITE;
+/*!40000 ALTER TABLE `tbl_author` DISABLE KEYS */;
+INSERT INTO `tbl_author` VALUES (1,'Stephen King'),(2,'Giovanna Bellingham'),(3,'Giustina Minter'),
+(4,'Shaylah Cussen'),(5,'Patrica Bynert'),(6,'Wiley Szymaniak'),(7,'Benedikta Gethin'),(8,'Nevsa Annandale'),(9,'Justis Schuricht'),(10,'Seymour Kubec'),(11,'Roxy Hankin'),(12,'Lea Schule'),(13,'Orsola Knappitt'),(14,'Augustin Ackers'),(15,'Hayyim Eustes'),(16,'Daryn Cancellieri'),(17,'Melony Eberts'),(18,'Kristos Blakiston'),(19,'Cairistiona Capehorn'),(20,'Pearline McNeilly'),(21,'Salim Antonias'),(22,'Clarke Wybron'),(23,'Hunfredo Smedmoor'),(24,'Pippo Ashfull'),(25,'Anabella Vagges'),(26,'Emylee Banat'),(27,'Joaquin Forton'),(28,'Meier Godfrey'),(29,'Audry Phifer'),(30,'Gardy Doret'),(31,'Oliviero Kornousek'),(32,'Allie Starten'),(33,'Bruce Monkley'),(34,'Christie Airton'),(35,'Athene Gounel'),(36,'Salomone Gunderson'),(37,'Marna Minguet'),(38,'Rhona Flores'),(39,'Bord Laroux'),(40,'Cordie Hallin'),(41,'Gertie Seville'),(42,'Ermin Poulglais'),(43,'Nannie Davidovitz'),(44,'Roseanne Flatt'),(45,'Jacob Janowski'),(46,'Cassi Corneljes'),(47,'Charleen Nabbs'),(48,'Cybil Pattisson'),(49,'Jennette Farrand'),(50,'Melonie Treadaway'),(51,'Kerrill Gerrad'),(52,'Vidovik Cox'),(53,'Curran Whoolehan'),(54,'Blondelle Albon'),(55,'Lucio Milby'),(56,'Roseline Luce'),(57,'Clemmy Underwood'),(58,'Wilone Noell'),(59,'Bellina Rustedge'),(60,'Keefe Stygall'),(61,'Petronella Gronno'),(62,'Dorise Pincott'),(63,'Connie Crocumbe'),(64,'Trix Erwin'),(65,'Lizzie Tynemouth'),(66,'Rosita Gritsunov'),(67,'Noby Ninnotti'),(68,'Lacey Custy'),(69,'Zelig Brockie'),(70,'Adel Wagstaffe'),(71,'Kristopher Maciejewski'),(72,'Rob Fearnill'),(73,'Sherill Heinlein'),(74,'Morganica Davers'),(75,'Perle Ginman'),(76,'Patrica Lum'),(77,'Cori Creaser'),(78,'Elva Canet'),(79,'Georgianna Rioch'),(80,'Kira Putterill'),(81,'Laural McKintosh'),(82,'Marcellina Tabbernor'),(83,'Gothart Burnup'),(84,'Zorina Casely'),(85,'Merrill McCaig'),(86,'Ferris Ogelbe'),(87,'Alastair Radmer'),(88,'Georgy Dunster'),(89,'Temple Guerrazzi'),(90,'Laural Wasiela'),(91,'Joya Galbreth'),(92,'Stirling Yarker'),(93,'Sal Riggs'),(94,'Frayda Chubb'),(95,'Stesha Robrow'),(96,'Loise Banasevich'),(97,'Georgeanna Patty'),(98,'Hannis Offa'),(99,'Forrester Okenden'),(100,'Raviv Ferrelli'),(101,'Cherrita Delamere'),(102,'Blondy Trowsdall'),(103,'Isabelle Wem'),(104,'Eudora Walpole'),(105,'Kelli Sneezem'),(106,'Hamnet Mengo'),(107,'Deborah Bloxsum'),(108,'Kev Rosenwasser'),(109,'Margery Grishanov'),(110,'Briggs Crawforth'),(111,'Kelly Ruff'),(112,'Drusi Westwater'),(113,'Sumner Heber'),(114,'Vick Leggs'),(115,'Gun Shropshire'),(116,'Cheri Godson'),(117,'Karen Van der Veldt'),(118,'Andreana Bemwell'),(119,'Sonya Caze'),(120,'Charlotta Klemt'),(121,'Philippa Benyan'),(122,'Sunny Dahlberg'),(123,'Albertina Loram'),(124,'Carly Djakovic'),(125,'Dilan Gravie'),(126,'Pincas Steel'),(127,'Ric Dyerson'),(128,'Donia Gorton'),(129,'Jack Loutheane'),(130,'Sondra Manson'),(131,'Thebault Winson'),(132,'Georg Teenan'),(133,'Jeffry Nowick'),(134,'Alix Grigorian'),(135,'Kimball Stillgoe'),(136,'Nikolas Brodeau'),(137,'Rurik Flanders'),(138,'Hagen Rebert'),(139,'Flore Shrive'),(140,'Tobit Mattiacci'),(141,'Shelley Steventon'),(142,'Sheffield Cawdery'),(143,'Tiebold De Ath'),(144,'Nicol Nehl'),(145,'Elianore Owers'),(146,'Lisette Luebbert'),(147,'Maren Wharlton'),(148,'Jermaine Davydoch'),(149,'Rosemaria Murr'),(150,'Burty Tooby'),(151,'Rayna Yerrell'),(152,'Giana Casillas'),(153,'Leonie Hedon'),(154,'Hartwell Fawlks'),(155,'Celestia Drache'),(156,'Nicol Antoniazzi'),(157,'Kristina Backe'),(158,'Marisa Unthank'),(159,'Jaymie Haskew'),(160,'Sutherlan Dict'),(161,'Gav Bloxsome'),(162,'Lizzy Pundy'),(163,'Jeffy Darth'),(164,'Estrella Fraanchyonok'),(165,'Maryanna Eaklee'),(166,'Byrle Grinyakin'),(167,'Etan Pickle'),(168,'Gregoire Meachem'),(169,'Erinna Lowdham'),(170,'Malchy Setterthwait'),(171,'Brewster Bentick'),(172,'Laryssa Quinn'),(173,'Tyne Gaynsford'),(174,'Tybalt Blockley'),(175,'Annice Strafford'),(176,'Felecia Boarleyson'),(177,'Iolanthe Errington'),(178,'Alida Beatson'),(179,'Evelyn Tremoille'),(180,'Catriona Scamp'),(181,'Arvie Hurrell'),(182,'Brice Leadbitter'),(183,'Dorthea Rishbrook'),(184,'Lavina Peregrine'),(185,'Kare O\' Neligan'),(186,'Kipp O\'Carney'),(187,'Penny Brozek'),(188,'Isis Scobbie'),(189,'Leonard Kettle'),(190,'Eloisa Bosenworth'),(191,'Rayna MacGillicuddy'),(192,'Bibbie MacDiarmid'),(193,'Zelda Stainfield'),(194,'Ruthi Beresfore'),(195,'Karlens Stickland'),(196,'Willow Brokenshaw'),(197,'Katherine Blasgen'),(198,'Marshal Elderbrant'),(199,'Astrix Wiffill'),(200,'Berne Gladhill'),(201,'Erskine Brugemann'),(202,'Randie Catcherside'),(203,'Diannne MacLeese'),(204,'Les Wadhams'),(205,'Drud Brigman'),(206,'Alano Skullet'),(207,'Bartolemo Warbey'),(208,'Dmitri Tocque'),(209,'Jeanine Theze'),(210,'Atlanta Passey'),(211,'Lonni Wolfer'),(212,'Wittie Pattillo'),(213,'Karly Lambotin'),(214,'Dud Slavin'),(215,'Arthur Fer'),(216,'Juana Gellibrand'),(217,'Tillie Spacy'),(218,'Matthus Capstick'),(219,'Melanie Pattesall'),(220,'Charles Meharg'),(221,'Terrence Suscens'),(222,'Ailee Baniard'),(223,'Octavius Sawle'),(224,'Kerr Mildenhall'),(225,'Christel Watts'),(226,'Viviyan Thornley'),(227,'Tabbie Fairbairn'),(228,'Arte Rolf'),(229,'Griselda Romushkin'),(230,'Moyra Madders'),(231,'Kalie Fisby'),(232,'Ethelyn Chartman'),(233,'Alick Brierley'),(234,'Franny Fairfoull'),(235,'Massimo Lockner'),(236,'Wayland Hearne'),(237,'Teodorico Allder'),(238,'Merrick Earey'),(239,'Marita Jolliff'),(240,'Denis Shepland'),(241,'Ellwood Chippindall'),(242,'Waite Mazdon'),(243,'Giselle Le Pruvost'),(244,'Ailene Willishire'),(245,'Ogden Mordan'),(246,'Josefina Patershall'),(247,'Diane-marie Lenoir'),(248,'Faber Undy'),(249,'Parnell Surmeyer'),(250,'Morlee Sterricks'),(251,'Datha Duggleby'),(252,'Casey Cathenod'),(253,'Mose Deards'),(254,'Krystalle Tender'),(255,'Cyndi Fetherby'),(256,'Filberto Fernely'),(257,'Maggy Eversfield'),(258,'Kim Dory'),(259,'Gizela Points'),(260,'Jacques Pitkethly'),(261,'Isak Fenne'),(262,'Braden Rhead'),(263,'Jill Tomini'),(264,'Aileen Tomaschke'),(265,'Patsy Cours'),(266,'Mahalia Gath'),(267,'Gareth Reims'),(268,'Mollie Giraudel'),(269,'Harland Fortye'),(270,'Mitch Parfrey'),(271,'Milissent Simonich'),(272,'Mildrid Valentine'),(273,'Rolfe Schober'),(274,'Blithe Burgin'),(275,'Tore Thirlwall'),(276,'Arv Delgardo'),(277,'Micaela Josham'),(278,'Nathaniel Bools'),(279,'Iris Rookwell'),(280,'Lorita Dorn'),(281,'Kristel Munsey'),(282,'Anet Baigrie'),(283,'Lindon Takle'),(284,'Earle Pennyman'),(285,'Ryann Rapaport'),(286,'Blondie Batting'),(287,'Novelia Stockton'),(288,'Germayne Flucker'),(289,'Genni Mussalli'),(290,'Cordelie Fetherstone'),(291,'Sibelle Oganian'),(292,'Collin Roofe'),(293,'Hewie Frear'),(294,'Marianna Scully'),(295,'Cirilo Piff'),(296,'Izabel Pooly'),(297,'Ingemar Munkley'),(298,'Claudianus Jowitt'),(299,'Berny Cricket'),(300,'Odilia Slemming'),(301,'Fletcher Pinckney'),(302,'Belle Sinnatt'),(303,'Lucie Diggar'),(304,'Dyanne Kynge'),(305,'Barnabe Annable'),(306,'Mag Bergeau'),(307,'Bessy Kynton'),(308,'Janetta Wontner'),(309,'Marlo Patman'),(310,'Tyne Dachs'),(311,'Rik Surmeir'),(312,'Tiffie Margerrison'),(313,'Catharine Leggen'),(314,'Fabien Okker'),(315,'Boyce Penlington'),(316,'Jillane Cazin'),(317,'Derward Labell'),(318,'Tamera Bilney'),(319,'Zulema Littell'),(320,'Taffy Slyman'),(321,'Anitra Cerith'),(322,'Rozalie Murrthum'),(323,'Eddie Giovani'),(324,'Gasparo Stegel'),(325,'Kally Maddrell'),(326,'Thoma Broadbere'),(327,'Jewell Kalinsky'),(328,'Stephani Narraway'),(329,'Adoree Leonard'),(330,'Keefer Staniland'),(331,'Doll Schule'),(332,'Kristine Stonnell'),(333,'Augustine Tathacott'),(334,'Josefa Tenaunt'),(335,'Adelice Tinker'),(336,'Basile Livesay'),(337,'Barty Sussams'),(338,'Fredek Proudlove'),(339,'Layla Sollas'),(340,'Seymour Treweek'),(341,'Gaye Spybey'),(342,'Elton Avesque'),(343,'Kaylil Albrighton'),(344,'Errol Shipman'),(345,'Bucky Knudsen'),(346,'Cully Semmens'),(347,'Roslyn Flight'),(348,'Tamas Ugo'),(349,'Kalina Benallack'),(350,'Lane Purbrick'),(351,'Aila Honatsch'),(352,'Pet Dugdale'),(353,'Ware Sloey'),(354,'Merline Fidell'),(355,'Nerti Spellesy'),(356,'Anett Wrathmall'),(357,'Lonnard Holleran'),(358,'Elihu Spivie'),(359,'Nikolai Parlor'),(360,'Trstram Michal'),(361,'Worth Conen'),(362,'Deni Cleobury'),(363,'Basile Fiske'),(364,'Josee Yarnley'),(365,'Adriano Caddan'),(366,'Nevin Mingard'),(367,'Xerxes Crowter'),(368,'Lisabeth Hartshorne'),(369,'Collette Fishbourne'),(370,'Marinna Fish'),(371,'Ardelia Kropach'),(372,'Adan Braisted'),(373,'Carol-jean Addey'),(374,'Florella Franek'),(375,'Rochette Braunds'),(376,'Rudiger Whiteford'),(377,'Darcie Aitkenhead'),(378,'Liuka Hawton'),(379,'Eugenio Hanshaw'),(380,'Amata Thrower'),(381,'April Purslow'),(382,'Gram Folling'),(383,'Phillida Attrill'),(384,'Suzette Brien'),(385,'Lind Castlake'),(386,'Gerald Lynas'),(387,'Matelda Heinzler'),(388,'Mehetabel Mityashin'),(389,'Dore Gamlin'),(390,'Gregoire Venning'),(391,'Berti Driffe'),(392,'Gamaliel Bryceson'),(393,'Herman Farnall'),(394,'Freddie Laminman'),(395,'Giuseppe Eslinger'),(396,'Pace Callen'),(397,'Dimitri Beekmann'),(398,'Mira Butchart'),(399,'Euell Nibley'),(400,'Lorrie Dutson'),(401,'Marlowe Rymell'),(402,'Corby Gaye'),(403,'Der Bickardike'),(404,'Graeme Giovanetti'),(405,'Pearline Streatfeild'),(406,'Libbie Iczokvitz'),(407,'Westbrook Flipek'),(408,'Adan Goade'),(409,'Rhys Tubby'),(410,'Jerrilyn Blodgett'),(411,'Berkie Tibbetts'),(412,'Jefferson Lear'),(413,'Ruben Urling'),(414,'Eulalie Feechum'),(415,'Bridie Cheesworth'),(416,'Alaric Gabbetis'),(417,'Ignaz Heel'),(418,'Giorgi Swaine'),(419,'Ethe Warwicker'),(420,'Billye Chatain'),(421,'Adan Cockran'),(422,'Oberon Hemmingway'),(423,'Bonita Hadcock'),(424,'Robbi Tremmil'),(425,'Filmore Pattison'),(426,'Salvatore Tarrier'),(427,'Livvyy Tooby'),(428,'Antonietta Whitworth'),(429,'Ariana Dove'),(430,'Jephthah Louw'),(431,'Emelia Sartin'),(432,'Kaleb Twort'),(433,'Rosemaria Bootton'),(434,'Modestine Blagden'),(435,'Kylynn Lummis'),(436,'Georgiana Ibert'),(437,'Beitris Dickerson'),(438,'Justis Blum'),(439,'Leoine Prazor'),(440,'Tuckie Cluderay'),(441,'Peder Paye'),(442,'Sharl Gregolotti'),(443,'Natalee Smardon'),(444,'Friederike Emmitt'),(445,'Aldon Keesman'),(446,'Wood Dismore'),(447,'Osborne Pancast'),(448,'Jonas Muggach'),(449,'Nicholas Kornes'),(450,'Gerik Gameson'),(451,'Lynnett Ings'),(452,'Goldie Carslake'),(453,'Sheilah Bleythin'),(454,'Amil Veal'),(455,'Estella Littler'),(456,'Ulrikaumeko Davydychev'),(457,'Hailee Charrisson'),(458,'Isahella McArte'),(459,'Haydon Scrinage'),(460,'Chev Appleford'),(461,'Hamlin Knagges'),(462,'Elliott Borman'),(463,'Ignazio Hadwen'),(464,'Parnell Khadir'),(465,'Ingaberg Cozzi'),(466,'Gay Wickett'),(467,'Quinton Drover'),(468,'Byrom Petersen'),(469,'Launce Willgoose'),(470,'Letty Jurewicz'),(471,'Theresina Quilkin'),(472,'Willem Shillabeer'),(473,'Gerardo Padell'),(474,'Estel Garry'),(475,'Kendell Fender'),(476,'Marleah Polini'),(477,'Janey Gleadhall'),(478,'Stanley Osgorby'),(479,'Marlowe Betz'),(480,'Eleanor Grinishin'),(481,'Britni Tullett'),(482,'Alida Ball'),(483,'Jemmie Beddard'),(484,'Wilmer Luffman'),(485,'Danica Iglesiaz'),(486,'Bryn Garroway'),(487,'Neda Penhalurick'),(488,'Kimmi Goodbanne'),(489,'Shannon Hedingham'),(490,'Natalie Marder'),(491,'Benetta Domerq'),(492,'Harlan Ingledow'),(493,'Jolyn Clows'),(494,'Sibylla Beall'),(495,'Padget Ledford'),(496,'Oswald Koeppke'),(497,'Lynda MacLennan'),(498,'Raynor Gerg'),(499,'Laurena Swaine'),(500,'Sonny Tregian');
+/*!40000 ALTER TABLE `tbl_author` ENABLE KEYS */;
+UNLOCK TABLES;
+
+LOCK TABLES `tbl_book` WRITE;
+/*!40000 ALTER TABLE `tbl_book` DISABLE KEYS */;
+INSERT INTO `tbl_book` VALUES 
+		(1,'The Lost Tribe',1),
+		(2,'Resident Evil: Degeneration', 2),
+        (3,'Blind',3),
+		(4,'Sunday in New York',4),
+		(5,'In Search of Lost Time',20),
+		(6,'Don Quixote ', 22),
+        (7,'Ulysses ',23),
+		(8,'The Great Gatsby',24),
+		(9,' One Hundred Years of Solitude',33),
+		(10,'Moby Dick',44);
+/*!40000 ALTER TABLE `tbl_book` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+LOCK TABLES `tbl_book_authors` WRITE;
+/*!40000 ALTER TABLE `tbl_book_authors` DISABLE KEYS */;
+INSERT INTO `tbl_book_authors` VALUES 
+(1,1), (2,2), (3,3), (4,4), (5,5), (6,6), (7,10), (8,13), (9,15), (10,11);
+/*!40000 ALTER TABLE `tbl_book_authors` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+LOCK TABLES `tbl_book_copies` WRITE;
+/*!40000 ALTER TABLE `tbl_book_copies` DISABLE KEYS */;
+INSERT INTO `tbl_book_copies` VALUES 
+(1,4,100),(2,23,46),(3,28,35),(4,47,65),
+(5,5,40),(6,9,3),(7,17,83),(8,10,12), (9,12,100),(10,11,50);
+/*!40000 ALTER TABLE `tbl_book_copies` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+LOCK TABLES `tbl_book_genres` WRITE;
+/*!40000 ALTER TABLE `tbl_book_genres` DISABLE KEYS */;
+INSERT INTO `tbl_book_genres` VALUES 
+(10,1), (11,2), (12,3), (13,4), (14,5), (15,5),
+(16,6), (17,7), (18,8), (19,9), (20,10);
+/*!40000 ALTER TABLE `tbl_book_genres` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+
+LOCK TABLES `tbl_book_loans` WRITE;
+/*!40000 ALTER TABLE `tbl_book_loans` DISABLE KEYS */;
+INSERT INTO `tbl_book_loans` VALUES 
+(1,4,1,'2018-01-21 03:33:40','2018-09-12 00:14:50', '2018-09-12 00:10:50'),
+(2,23,46,'2018-03-02 10:06:59','2018-04-08 17:39:24', '2018-04-08 10:39:24'),
+(4,47,4,'2018-06-09 03:16:39','2018-03-28 22:30:28','2018-03-27 10:30:28'),
+(3,28,35,'2018-03-19 18:59:42','2018-10-09 16:56:19','2018-09-05 13:56:19'),
+(5,5,10,'2018-03-25 09:35:20','2018-05-22 13:02:18','2018-05-20 10:02:18'),
+(6,9,11,'2018-03-15 12:03:07','2018-08-21 01:32:46','2018-08-13 01:32:46'),
+(7,17,12,'2018-01-13 09:34:54','2018-06-04 18:04:49','2018-04-04 13:04:49'),
+(8,10,13,'2018-02-06 20:46:59','2018-10-07 23:53:58','2018-07-07 20:53:58'),
+(9,12,14,'2018-03-20 23:38:11','2018-04-17 09:18:52','2018-03-28 12:18:50'),
+(10,11,15,'2018-01-02 21:03:57','2018-09-09 09:38:27','2018-07-07 09:30:27');
+/*!40000 ALTER TABLE `tbl_book_loans` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+LOCK TABLES `tbl_borrower` WRITE;
+/*!40000 ALTER TABLE `tbl_borrower` DISABLE KEYS */;
+INSERT INTO `tbl_borrower` VALUES 
+(1,'Shelia Skipp','57 Nancy Junction','971-586-2556'),
+(46,'Vanya Melior','3 Pierstorff Place','478-870-7006'),
+(35,'Abie Padden','40 Colorado Point','563-560-7535'),
+(4,'Marsh Stud','3265 Katie Park','441-842-0732'),
+(10,'Eolanda Huxster','4348 Schiller Trail','361-644-6665'),
+(11,'Julius Hollyland','448 Quincy Avenue','946-539-7487'),
+(12,'Alaine Galway','5 Dwight Court','929-922-8462'),
+(13,'Ola Busswell','99818 Mayer Road','753-735-8179'),
+(14,'Garrard Sangster','957 Rockefeller Road','769-572-7229'),
+(15,'Brunhilde Baile','8 Sycamore Plaza','792-372-2803');
+/*!40000 ALTER TABLE `tbl_borrower` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+
+LOCK TABLES `tbl_genre` WRITE;
+/*!40000 ALTER TABLE `tbl_genre` DISABLE KEYS */;
+INSERT INTO `tbl_genre` VALUES 
+(10,'fiction'), (11,'non-fiction'), (12,'horror'), (13,'fantasty'),
+(14,'mystery'), (15,'adventure'), (16,'childrens-book'), (17,'non-fiction'),
+(18,'true-crime'), (19,'science-book');
+/*!40000 ALTER TABLE `tbl_genre` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+
+LOCK TABLES `tbl_library_branch` WRITE;
+/*!40000 ALTER TABLE `tbl_library_branch` DISABLE KEYS */;
+INSERT INTO `tbl_library_branch` VALUES 
+(4,'Sharpstown','03169 Anhalt Circle'),
+(23,'Central','65204 Di Loreto Plaza'),
+(47,'Boyd','12 Shelley Plaza'),
+(28,'Arkansas','3138 Quincy Avenue'),
+(5,'Pierstorff','9262 Novick Way'),
+(9,'Hoard','8 Nevada Way'),
+(10,'Dakota','5 Donald Terrace'),
+(11,'Transport','52167 Mccormick Road'),
+(12,'Hoffman','391 Mockingbird Road'),
+(17,'Tennessee','5 Armistice Way');
+/*!40000 ALTER TABLE `tbl_library_branch` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+LOCK TABLES `tbl_publisher` WRITE;
+/*!40000 ALTER TABLE `tbl_publisher` DISABLE KEYS */;
+INSERT INTO `tbl_publisher` VALUES 
+(1,'Rippin Inc','752 Graedel Circle','756-206-0758'),
+(2,'Graham LLC','92 Melvin Place','190-261-0953'),
+(3,'McGlynn, Welch and Dooley','9 Mariners Cove Street','938-258-2542'),
+(4,'Stiedemann, Zieme and Funk','6 Arkansas Terrace','575-304-7375'),
+(20,'Ebert-Lubowitz','340 5th Parkway','286-623-4810'),
+(22,'Jacobi Inc','37770 Nova Crossing','893-987-5117'),
+(23,'Herzog, Conroy and Herzog','09 West Park','904-522-1691'),
+(24,'Halvorson-Crooks','99 Bultman Center','659-516-9983'),
+(33,'Mills, Gleichner and Weber','9 Garrison Avenue','945-934-5957'),
+(44,'Reichert-Kuphal','8305 Tennyson Point','361-380-7494');
+/*!40000 ALTER TABLE `tbl_publisher` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
