@@ -1,0 +1,41 @@
+1. Which class would you use to store your birthday in years, months,
+days, seconds, and nanoseconds?
+
+We should use the LocalDateTime class to store this information. For a particular time 
+zone we could use the ZonedDateTime class. Both class track date and time to nanosecond
+precision, and can give a result in years, months, and days with the Period class.
+
+
+2. Given a random date, how would you find the date of the previous Thursday?
+
+We can use the previous method of a TemporalAdjuster.
+	LocalDate date = ...;
+	System.out.printf("The previous Thursday is: %s%n", 
+	                date.with(TemporalAdjuster.previous(DayofWeek.THURSDAY)));
+	        
+	                
+3. What is the difference between a ZoneId and a ZoneOffset?
+Both classes track an offset from UTC time, but ZoneOffset class tracks only
+the absolute offset from UTC time. The ZoneId class also uses ZoneRules to determine
+how an offset varies for a specific time of year and region.
+
+
+4.How would you convert an Instant to a ZonedDateTime? How would you convert 
+a ZonedDateTime to an Instant?
+We can use the Instant.atZone method, which requires a ZoneId
+	ZonedDateTime zdt = Instant.now().atZone(ZoneId.systemDefault());
+To convert to an instant use the toInstant method in the ChronoZonedDateTime interface 
+implemented by ZonedDateTime class:
+	Instant inst = ZonedDateTime.now().toInstant();
+	
+	
+5.Write an example that, for a given year, reports the length of each month within that year.
+See LengthofMonthsinYear.java
+
+6.Write an example that, for a given month of the current year, lists all ofthe Mondays in that month.
+See ListMondays.java
+
+7. Write an example that tests whether a given date occurs on Friday the 13th.
+See Friday13query.java, Friday13.java and Friday13Test.java.
+
+
